@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1563543919 source:c:\cpp\documentmanager\main.cpp
+	<iostream>
+	"Document.hpp"
+	"Directory.hpp"
+	"User.hpp"
+	"UserController.hpp"
+	"UserView.hpp"
+
+1563369964 source:c:\cpp\documentmanager\model\node\node.cpp
+	"Node.hpp"
+
+1563197146 c:\cpp\documentmanager\model\node\node.hpp
+	"../../Enums/DMEnums.h"
+	<vector>
+	<string>
+
+1563370920 source:c:\cpp\documentmanager\model\directory\directory.cpp
+	"Directory.hpp"
+	<algorithm>
+
+1563370828 c:\cpp\documentmanager\model\directory\directory.hpp
+	"Node.hpp"
+
+1563538978 source:c:\cpp\documentmanager\model\user\user.cpp
+	"User.hpp"
+
+1563538755 c:\cpp\documentmanager\model\user\user.hpp
+	<string>
+	"Node.hpp"
+
+1563542574 c:\cpp\documentmanager\enums\dmenums.h
+
+1563369803 source:c:\cpp\documentmanager\model\document\document.cpp
+	"Document.hpp"
+	<iostream>
+
+1563369916 c:\cpp\documentmanager\model\document\document.hpp
+	"Node.hpp"
+	<string>
+
+1563523475 source:c:\cpp\documentmanager\controller\directory\directorycontroller.cpp
+	"DirectoryController.hpp"
+	"Directory.hpp"
+
+1563523558 c:\cpp\documentmanager\controller\directory\directorycontroller.hpp
+	<string>
+	"Node.hpp"
+
+1563369877 source:c:\cpp\documentmanager\controller\document\documentcontroller.cpp
+	"DocumentController.hpp"
+
+1563369023 c:\cpp\documentmanager\controller\document\documentcontroller.hpp
+	<string>
+	"Document.hpp"
+
+1563544197 source:c:\cpp\documentmanager\controller\user\usercontroller.cpp
+	"UserController.hpp"
+
+1563542365 c:\cpp\documentmanager\controller\user\usercontroller.hpp
+	<map>
+	<vector>
+	<set>
+	<string>
+	"User.hpp"
+	"DirectoryController.hpp"
+	"IUserObserver.h"
+
+1563542436 c:\cpp\documentmanager\view\observers\iuserobserver.h
+	"../../Enums/DMEnums.h"
+	"User.hpp"
+
+1563543739 source:c:\cpp\documentmanager\view\user\userview.cpp
+	"UserView.hpp"
+	<iostream>
+
+1563541536 c:\cpp\documentmanager\view\user\userview.hpp
+	"IUserObserver.h"
+

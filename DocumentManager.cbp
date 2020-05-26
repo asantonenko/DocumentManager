@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DocumentManager" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DocumentManager" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="Model/User" />
+					<Add directory="Model/Node" />
+					<Add directory="Model/Directory" />
+					<Add directory="Model/Document" />
+					<Add directory="Controller/Directory" />
+					<Add directory="Controller/Document" />
+					<Add directory="Controller/User" />
+					<Add directory="View/Observers" />
+					<Add directory="View/User" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DocumentManager" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="Model/User" />
+					<Add directory="Model/Node" />
+					<Add directory="Model/Directory" />
+					<Add directory="Model/Document" />
+					<Add directory="Controller/Directory" />
+					<Add directory="Controller/Document" />
+					<Add directory="Controller/User" />
+					<Add directory="View/Observers" />
+					<Add directory="View/User" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Controller/Directory/DirectoryController.cpp" />
+		<Unit filename="Controller/Directory/DirectoryController.hpp" />
+		<Unit filename="Controller/Document/DocumentController.cpp" />
+		<Unit filename="Controller/Document/DocumentController.hpp" />
+		<Unit filename="Controller/User/UserController.cpp" />
+		<Unit filename="Controller/User/UserController.hpp" />
+		<Unit filename="Enums/DMEnums.h" />
+		<Unit filename="Model/Directory/Directory.cpp" />
+		<Unit filename="Model/Directory/Directory.hpp" />
+		<Unit filename="Model/Document/Document.cpp" />
+		<Unit filename="Model/Document/Document.hpp" />
+		<Unit filename="Model/Node/Node.cpp" />
+		<Unit filename="Model/Node/Node.hpp" />
+		<Unit filename="Model/User/User.cpp" />
+		<Unit filename="Model/User/User.hpp" />
+		<Unit filename="View/Observers/IUserObserver.h" />
+		<Unit filename="View/User/UserView.cpp" />
+		<Unit filename="View/User/UserView.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
