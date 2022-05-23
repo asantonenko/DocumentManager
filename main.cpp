@@ -19,6 +19,7 @@ int main()
 
     uc->createUser("ivan","qwerty","Ivan","Ivanov");
     uc->createUser("petr","qwerty","Petro","Petrenko");
+
     User* user = uc->login("ivan","qwerty");
     if (user)
     {
